@@ -65,10 +65,12 @@ footer {
     position: relative;
     text-align: left;
     margin-left: 20px;
+    font-size: 15px;
   }
   .card-title {
     text-align: left;
     margin-left: 20px;
+    font-size: 25px;
   }
   footer {
     text-align: center;

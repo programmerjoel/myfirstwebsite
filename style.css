@@ -13,9 +13,67 @@ body {
 h1 {
   font-size: 5rem;
 }
-
 footer {
   text-align: right;
   color: midnightblue;
 }
 
+.creative {
+  color: rebeccapurple;
+}
+
+
+.tile-image {
+  width: 299px;  
+  float: left;
+  margin-right: 20px;
+}
+
+.left {
+  float: left;
+
+}
+
+.right {
+  float: right;
+}
+
+.block {
+  display: inline;
+}
+
+@media (max-width: 680px) {
+  .block {
+    display: block;
+    text-align: justify;
+    position: absolute;
+  }
+  .logo {
+    text-align: right;
+
+  }
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .tile-image {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+  p {
+    position: relative;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .card-title {
+    text-align: left;
+    margin-left: 20px;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+  }
+}

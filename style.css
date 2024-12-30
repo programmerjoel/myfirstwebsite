@@ -75,4 +75,7 @@ footer {
   .contant {
     align-items: center;
   }
+  footer {
+    text-align: center;
+  }
 }
